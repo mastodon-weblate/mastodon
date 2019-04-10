@@ -31,8 +31,8 @@ eu:
         subject: 'Mastodon: %{instance} instantziaren argibideak baieztapenerako'
         title: Baieztatu e-mail helbidea
         explanation_when_pending: '%{host} zerbitzarirako honbidapen eskari bat egin
-          duzu e-mail helbide honekin. Behin zure e-mail helbidea baiztatzen dugula,
-          zure eskaria ikuskatuko dugu. Ordurarte ezin izango duzu saioa hasi. Zure
+          duzu e-mail helbide honekin. Behin zure e-mail helbidea baieztatzen dugula,
+          zure eskaria ikuskatuko dugu. Bitartean ezin izango duzu saioa hasi. Zure
           eskaria ukatzen bada, zure datuak ezabatuko dira eta ez duzu gehiagorik
           egin beharko. Ez bazara zu izan, ezikusi mezu hau.'
       email_changed:
