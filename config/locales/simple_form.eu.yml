@@ -67,7 +67,7 @@ eu:
         chosen_languages: Ezer markatzekotan, hautatutako hizkuntzetan dauden toot-ak
           besterik ez dira erakutsiko
       invite_request:
-        text: Honek zure aplikazioa ikuskatzean lagunduko digu
+        text: Honek zure eskaria ikuskatzean lagunduko digu
     labels:
       account:
         fields:
