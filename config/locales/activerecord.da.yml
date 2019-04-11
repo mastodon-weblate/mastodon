@@ -1,9 +1,11 @@
----
 da:
   activerecord:
     attributes:
       status:
         owned_poll: Afstemning
+      poll:
+        expires_at: Tidsfrist
+        options: Valg
     errors:
       models:
         account:
