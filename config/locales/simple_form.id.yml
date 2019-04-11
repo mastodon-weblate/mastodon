@@ -1,15 +1,43 @@
----
 id:
   simple_form:
     hints:
       defaults:
         avatar: PNG, GIF atau JPG. Maksimal %{size}. Ukuran dikecilkan menjadi %{dimensions}px
         header: PNG, GIF atau JPG. Maksimal %{size}. Ukuran dikecilkan menjadi %{dimensions}px
-        locked: Anda harus menerima permintaan pengikut secara manual dan setting privasi postingan akan diubah khusus untuk pengikut
+        locked: Anda harus menerima permintaan pengikut secara manual dan setting
+          privasi postingan akan diubah khusus untuk pengikut
+        autofollow: Orang yang mendaftar melalui undangan akan secara otomatis mengikuti
+          Anda
+        bot: Akun ini secara umum melakukan tindakan terotomatisasi dan mungkin saja
+          tidak diawasi
+        context: Satu atau lebih konteks dimana penyaring dapat berlaku
+        digest: Hanya terkirim setelah masa ketidak-aktifan yang lama dan hanya jika
+          Anda telah menerima pesan pribadi selama ketidak-hadiran Anda
+        discoverable_html: <a href="%{path}" target="_blank">Direktori</a> membolehkan
+          orang-orang untuk menemukan akun berdasarkan ketertarikan dan aktivitas.
+          Mensyaratkan setidaknya %{min_followers} pengikut
+        email: Anda akan dikirimi e-mail konfirmasi
+        fields: Anda dapat memiliki hingga 4 item untuk ditampilkan sebagai tabel
+          pada profil Anda
+        inbox_url: Salin URL dari halaman depan relay yang ingin Anda gunakan.
+        irreversible: Toot-toot yang telah tersaring akan hilang tanpa dapat dikembalikan,
+          meskipun penyaring tersebut dihapus kemudian.
+        locale: Bahasa antarmuka pengguna, e-mail, dan pemberitahuan dorong
       imports:
         data: File CSV yang diexpor dari server Mastodon lain
       sessions:
         otp: Masukkan kode dua-faktor dari handphone atau gunakan kode pemulihan anda.
+      account_warning_preset:
+        text: Anda dapat menggunakan sintaksis toot, seperti URL, tagar, dan sebutan
+      admin_account_action:
+        send_email_notification: Pengguna akan menerima penjelasan atas apa yang telah
+          terjadi pada akun miliknya
+        text_html: Pilihan tak wajib. Anda dapat menggunakan sintaksis toot. Anda
+          dapat <a href="%{path}">menambah peringatan pra-atur </a> untuk menghemat
+          waktu
+        type_html: Pilihlah apa yang akan dilakukan untuk <strong>%{acct}</strong>
+        warning_preset_id: Pilihan tak wajib, Anda masih dapat menambah teks tersuai
+          di akhir preset
     labels:
       defaults:
         avatar: Avatar
@@ -43,6 +71,6 @@ id:
         reblog: Kirim email saat seseorang mem-boost status anda
     'no': Tidak
     required:
-      mark: "*"
+      mark: '*'
       text: wajib
     'yes': Ya
