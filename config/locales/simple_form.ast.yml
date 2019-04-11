@@ -15,6 +15,9 @@ ast:
         setting_theme: Afeuta al aspeutu de Mastodon cuando anicies sesión dende cualesquier
           preséu.
         username: El nome d'usuariu va ser únicu en %{domain}
+        discoverable_html: El <a href="%{path}" target="_blank">direutoriu</a> déxate
+          alcontrar cuentes según intereses y actividá. Rique polo menos %{min_followers}
+          siguidores
       imports:
         data: El ficheru CSV esportáu dende otra sirvidor de Mastodon
     labels:
@@ -32,11 +35,11 @@ ast:
         display_name: Nome a amosar
         email: Direición de corréu
         expires_in: Caduca tres
-        fields: Datos meta del perfil
+        fields: Metadatos del perfil
         header: Testera
         irreversible: Escartar en cuentes d'anubrir
         locale: Llingua de la interfaz
-        locked: Bloquiar cuenta
+        locked: Bloquiar la cuenta
         max_uses: Númberu máximu d'usos
         new_password: Contraseña nueva
         note: Biografía
@@ -55,6 +58,8 @@ ast:
         type: Triba de la importación
         username: Nome d'usuariu
         username_or_email: Nome d'usuariu o corréu
+        discoverable: Llistar esta cuenta nel direutoriu
+        setting_theme: Estilu del sitiu
       interactions:
         must_be_follower: Bloquiar avisos de persones que nun son siguidores
         must_be_following: Bloquiar avisos de persones que nun sigues
@@ -64,6 +69,8 @@ ast:
         follow: Unviar un corréu cuando daquién te siga
         follow_request: Unviar un corréu cuando daquién solicite siguite
         mention: Unviar un corréu cuando daquién te mente
+      invite_request:
+        text: ¿Por qué quies xunite?
     'no': Non
     required:
       mark: '*'
