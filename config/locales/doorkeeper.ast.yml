@@ -1,4 +1,3 @@
----
 ast:
   activerecord:
     attributes:
@@ -24,6 +23,8 @@ ast:
       show:
         actions: Aiciones
         title: 'Aplicación: %{name}'
+      confirmations:
+        destroy: ¿De xuru?
     authorizations:
       error:
         title: Asocedió un fallu
@@ -36,16 +37,23 @@ ast:
       buttons:
         revoke: Revocar
       index:
-        date_format: "%H:%M:%S %d-%m-%Y"
+        date_format: '%H:%M:%S %d-%m-%Y'
         title: Les aplicaciones qu'autoricesti
+        application: Aplicación
+        created_at: Data de l'autorización
+      confirmations:
+        revoke: ¿De xuru?
     errors:
       messages:
         invalid_token:
           expired: Caducó'l pase d'accesu
           revoked: Revocóse'l pase d'accesu
           unknown: El pase d'accesu nun ye válidu
-        unauthorized_client: El veceru nun ta autorizáu pa facer esta solicitú usando esti métodu.
-        unsupported_response_type: El sirvidor d'autorización nun sofita esta triba de rempuesta.
+        unauthorized_client: El veceru nun ta autorizáu pa facer esta solicitú usando
+          esti métodu.
+        unsupported_response_type: El sirvidor d'autorización nun sofita esta triba
+          de rempuesta.
+        access_denied: El dueñu del recursu o'l sirvidor d'autorización ñegó la solicitú.
     layouts:
       admin:
         nav:
@@ -70,3 +78,7 @@ ast:
       write:mutes: silenciar xente y conversaciones
       write:notifications: llimpiar los tos avisos
       write:statuses: espublizar estaos
+    flash:
+      authorized_applications:
+        destroy:
+          notice: Revocóse l'aplicación.
