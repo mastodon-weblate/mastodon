@@ -3,6 +3,8 @@ da:
     hints:
       admin_account_action:
         type_html: Vælg hvad du vil gøre med <strong>%{acct}</strong>
+        send_email_notification: Brugeren få en forklaring for hvad skete med deres
+          account
       defaults:
         autofollow: Folk der har oprettet sig gennem invitationen vil automatisk følge
           dig
@@ -45,6 +47,8 @@ da:
       user:
         chosen_languages: Når markeret, vil kun trut i de valgte sprog blive vist
           på offentlige tidslinjer
+      account_warning_preset:
+        text: Du kan bruge toot-syntax, for eksempel URLs, hashtags og nævninger
     labels:
       account:
         fields:
