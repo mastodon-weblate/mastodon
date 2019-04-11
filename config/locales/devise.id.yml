@@ -22,6 +22,16 @@ id:
     mailer:
       confirmation_instructions:
         subject: 'Mastodon: Petunjuk mengkonfirmasi untuk %{instance}'
+        action: Harap verifikasi alamat email
+        action_with_app: Konfirmasi dan kembali ke %{app}
+        explanation: Anda telah mendaftarkan sebuah akun pada %{host} dengan alamat
+          email ini. Anda hanya satu klik saja dari aktivasinya. Jika ini bukan Anda,
+          harap abaikan email ini.
+        explanation_when_pending: Anda meminta undangan masuk %{host} dengan alamat
+          email ini. Ketika Anda mengkonfirmasi alamat e-mail Anda, kami akan meninjau
+          permintaan Anda. Anda tidak dapat masuk sebelum itu. Jika permintaan Anda
+          ditolak, data-data Anda akan dihapus, sehingga tidak perlu ada tindakan
+          lebih jauh dari Anda. Jika ini bukan Anda, harap abaikan email ini.
       password_change:
         subject: 'Mastodon: Kata sandi telah diubah'
       reset_password_instructions:
