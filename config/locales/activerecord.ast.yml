@@ -1,4 +1,3 @@
----
 ast:
   activerecord:
     errors:
@@ -7,3 +6,7 @@ ast:
           attributes:
             username:
               invalid: namái lletres, númberos y guiones baxos
+    attributes:
+      poll:
+        expires_at: Data de fin
+        options: Escoyetes
