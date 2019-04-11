@@ -23,6 +23,7 @@ id:
         irreversible: Toot-toot yang telah tersaring akan hilang tanpa dapat dikembalikan,
           meskipun penyaring tersebut dihapus kemudian.
         locale: Bahasa antarmuka pengguna, e-mail, dan pemberitahuan dorong
+        password: Gunakan setidaknya 8 karakter
       imports:
         data: File CSV yang diexpor dari server Mastodon lain
       sessions:
