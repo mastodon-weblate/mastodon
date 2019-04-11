@@ -3,8 +3,8 @@ da:
     hints:
       admin_account_action:
         type_html: Vælg hvad du vil gøre med <strong>%{acct}</strong>
-        send_email_notification: Brugeren få en forklaring for hvad skete med deres
-          account
+        send_email_notification: Brugeren får en forklaring for hvad skete med deres
+          konto
       defaults:
         autofollow: Folk der har oprettet sig gennem invitationen vil automatisk følge
           dig
@@ -39,6 +39,7 @@ da:
         username: Dit brugernavn vil være unikt på %{domain}
         whole_word: Når nøgle ordet eller udtrykket kun er alfanumerisk, vil det kun
           blive brugt hvis det passer hele ordet
+        setting_display_media_show_all: Vis altid medier der er markeret som følsomt
       imports:
         data: CSV fil eksporteret fra en anden Mastodon server
       sessions:
@@ -49,6 +50,8 @@ da:
           på offentlige tidslinjer
       account_warning_preset:
         text: Du kan bruge toot-syntax, for eksempel URLs, hashtags og nævninger
+      featured_tag:
+        name: 'Du kunne måske tænke dig at bruge en af disse:'
     labels:
       account:
         fields:
