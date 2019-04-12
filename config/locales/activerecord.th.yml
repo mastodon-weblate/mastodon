@@ -1,4 +1,3 @@
----
 th:
   activerecord:
     errors:
@@ -11,3 +10,7 @@ th:
           attributes:
             reblog:
               taken: มีสถานะอยู่แล้ว
+    attributes:
+      poll:
+        expires_at: กำหนดเวลาสิ้นสุด
+        options: ทางเลือก
