@@ -1,4 +1,3 @@
----
 sl:
   activerecord:
     errors:
@@ -11,3 +10,7 @@ sl:
           attributes:
             reblog:
               taken: od statusa že obstajajo
+    attributes:
+      poll:
+        expires_at: Rok
+        options: Izbire
