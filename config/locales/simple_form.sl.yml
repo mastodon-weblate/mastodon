@@ -9,7 +9,7 @@ sl:
         digest: Pošlje se le po dolgem obdobju nedejavnosti in samo, če ste prejeli
           osebna sporočila v vaši odsotnosti
         email: Poslali vam bomo potrditveno e-pošto
-        fields: Na svojem profilu lahko imate do 4 predmete prikazane kot tabelo.
+        fields: Na svojem profilu lahko imate do 4 elemente prikazane kot tabelo
         header: PNG, GIF ali JPG. Največ %{size}. Zmanjšana bo na %{dimensions}px
         inbox_url: Kopirajte URL naslov s prve strani releja, ki ga želite uporabiti
         irreversible: Filtrirani trobi bodo nepovratno izginili, tudi če je filter
@@ -34,14 +34,35 @@ sl:
         username: Vaše uporabniško ime bo edinstveno na %{domain}
         whole_word: Ko je ključna beseda ali fraza samo alfanumerična, se bo uporabljala
           le, če se bo ujemala s celotno besedo
+        discoverable_html: <a href="%{path}" target="_blank">Imenik</a> ljudem omogoča
+          iskanje računov na podlagi interesov in dejavnosti. Zahteva vsaj %{min_followers}
+          sledilcev
+        setting_aggregate_reblogs: Ne prikazujte novih spodbud za tute, ki so bili
+          nedavno spodbujeni (vpliva samo na novo prejete spodbude)
+        setting_show_application: Aplikacija, ki jo uporabljate za objavo tutov, bo
+          prikazana v podrobnem prikazu vaših tutov
       imports:
-        data: Izvožena CSV datoteka iz drugega Mastodon vozlišča
+        data: Izvožena CSV datoteka iz drugega Mastodon strežnika
       sessions:
         otp: 'Vnesite dvomestno kodo, ki je ustvarjena z aplikacijo na telefonu, ali
           uporabite eno od vaših obnovitvenih kod:'
       user:
         chosen_languages: Ko je označeno, bodo v javnih časovnicah prikazani samo
           trobi v izbranih jezikih
+      account_warning_preset:
+        text: Lahko uporabite sintakso tuta, kot so URl-ji, ključniki in omembe
+      admin_account_action:
+        send_email_notification: Uporabnik bo prejel pojasnilo o tem, kaj se je zgodilo
+          z njegovim računom
+        text_html: Neobvezno. Lahko uporabite sintakso tuta. Dodate lahko <a href="%{path}">nastavitve
+          opozoril</a>, da prihranite čas
+        type_html: Izberite, kaj storiti z <strong> %{acct}</strong>
+        warning_preset_id: Neobvezno. Še vedno lahko dodate besedilo po meri na konec
+          nastavitev
+      featured_tag:
+        name: 'Morda boste želeli uporabiti eno od teh možnosti:'
+      invite_request:
+        text: To nam bo pomagalo pregledati vašo prijavo
     labels:
       account:
         fields:
@@ -85,27 +106,48 @@ sl:
         setting_expand_spoilers: Vedno razširi trobe, označene z opozorili o vsebini
         setting_hide_network: Skrij svoje omrežje
         setting_noindex: Odsotnost indeksiranja iskalnikov
-        setting_reduce_motion: Zmanjšanje premikanja v animacijah
+        setting_reduce_motion: Poenostavi animacije
         setting_system_font_ui: Uporabi privzeto pisavo sistema
         setting_theme: Tema strani
         setting_unfollow_modal: Pokaži potrditveno okno, preden nekoga prenehamo slediti
-        severity: Strogost
+        severity: Resnost
         type: Vrsta uvoza
         username: Uporabniško ime
         username_or_email: Uporabniško ime ali E-pošta
         whole_word: Celotna beseda
+        discoverable: Navedite ta račun v imeniku
+        setting_aggregate_reblogs: Skupinske spodbude in časovnice
+        setting_show_application: Razkrij aplikacijo, ki se uporablja za pošiljanje
+          tutov
       interactions:
         must_be_follower: Blokiraj obvestila nesledilcev
         must_be_following: Blokiraj obvestila oseb, ki jim ne sledite
         must_be_following_dm: Blokiraj neposredna sporočila oseb, ki jim ne sledite
       notification_emails:
         digest: Pošlji izvlečke e-pošt
-        favourite: Pošlji e-pošto, ko nekdo doda vaše stanje med priljubljene
+        favourite: Pošlji e-pošto, ko nekdo vzljubi vaše stanje
         follow: Pošlji e-pošto, ko vas nekdo sledi
         follow_request: Pošlji e-pošto, ko vam nekdo želi slediti
         mention: Pošlji e-pošto, ko vas nekdo omeni
-        reblog: Pošlji e-pošto, ko nekdo sune vaše stanje
+        reblog: Pošlji e-pošto, ko nekdo spodbudi vaš status
         report: Pošlji e-pošto, ko je oddana nova prijava
+        pending_account: Pošljite e-pošto, ko je potreben pregled novega računa
+      account_warning_preset:
+        text: Nastavljeno besedilo
+      admin_account_action:
+        send_email_notification: Obvesti uporabnika po e-pošti
+        text: Opozorilo po meri
+        type: Dejanje
+        types:
+          disable: Onemogoči
+          none: Ne naredi ničesar
+          silence: Utišaj
+          suspend: Suspendiraj in nepovratno izbriši podatke o računu
+        warning_preset_id: Uporabi nastavljeno opozorilo
+      featured_tag:
+        name: Ključnik
+      invite_request:
+        text: Zakaj se želite pridružiti?
     'no': Ne
     required:
       mark: '*'
