@@ -40,6 +40,11 @@ da:
         whole_word: Når nøgle ordet eller udtrykket kun er alfanumerisk, vil det kun
           blive brugt hvis det passer hele ordet
         setting_display_media_show_all: Vis altid medier der er markeret som følsomt
+        discoverable_html: <a href="%{path}" target="_blank">Registret</a> lader folk
+          finde konti baseret ud fra interesser og aktivitet. Kræver mindst %{min_followers}
+          følgere
+        setting_show_application: Den applikation du bruger til at trutte med vil
+          blive vist i den detaljerede visning af dine trut
       imports:
         data: CSV fil eksporteret fra en anden Mastodon server
       sessions:
@@ -52,6 +57,8 @@ da:
         text: Du kan bruge toot-syntax, for eksempel URLs, hashtags og nævninger
       featured_tag:
         name: 'Du kunne måske tænke dig at bruge en af disse:'
+      invite_request:
+        text: Dette vil hjælpe os med at gennemgå din ansøgning
     labels:
       account:
         fields:
